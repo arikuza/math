@@ -25,10 +25,6 @@ function generateOperation() {
   return operation;
 }
 
-// Пример использования функции
-const generatedOperation = generateOperation();
-console.log(generatedOperation);
-
 export const Task = () => {
   const [{ operandA, operandB, operator, result }, setTask] = useState(
     generateOperation()
