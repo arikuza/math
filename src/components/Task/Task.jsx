@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 function generateOperation() {
@@ -33,7 +34,7 @@ export const Task = () => {
     generateOperation()
   );
 
-  const [countdown, setCountdown] = useState(5);
+  const [countdown, setCountdown] = useState(50);
   const [error, setError] = useState(false);
   const [errorCounter, setErrorCounter] = useState(0);
 

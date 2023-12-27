@@ -1,3 +1,4 @@
+import Rect from "react";
 import "./App.css";
 import { Task } from "./components/Task/Task";
 
